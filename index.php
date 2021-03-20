@@ -1,18 +1,14 @@
+<?php
 /**
 * Main Template file
 *
 * @package Aquila
 */
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aquila Theme Development</title>
-</head>
-<body>
-    
-</body>
-</html>
+get_header();//for including header template
+?>
+
+    <div>Content</div>
+   
+   <?php 
+  get_footer();//for including footer template
